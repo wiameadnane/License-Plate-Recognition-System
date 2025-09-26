@@ -118,7 +118,7 @@ python main.py
    - The application processes the video frame by frame
    - Progress bar shows real-time processing status
    - Vehicle detection, license plate detection, and OCR are performed
-   
+
 <div align="center">
   <img src="screenshots/loading-screen.png" alt="Loading Screen" />
 </div>
@@ -247,16 +247,6 @@ Key parameters can be adjusted in `Function.py`:
 
 This project is developed for educational purposes as part of a university course in Computer Vision.
 Academic Year : 2024 - 2025
-
-## 🙏 Acknowledgments
-
-- **Ultralytics**: YOLOv8 implementation
-- **EasyOCR**: OCR library
-- **SORT**: Object tracking algorithm
-- **PyQt6**: GUI framework
-- **OpenCV**: Computer vision library
-
-
 ---
 
 **Project developed by**: Wiame Adnane & Abderrahmane Najib
