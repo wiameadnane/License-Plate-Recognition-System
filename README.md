@@ -2,7 +2,7 @@
 
 An advanced computer vision application for automatic vehicle detection, tracking, and license plate recognition in video streams. Built with PyQt6, YOLOv8, and EasyOCR.
 
-## 🚀 Features
+## Features
 
 - **Multi-Screen GUI Application**: Intuitive PyQt6-based interface with multiple screens for different functionalities
 - **Vehicle Detection**: Real-time vehicle detection using YOLOv8 model
@@ -20,7 +20,7 @@ An advanced computer vision application for automatic vehicle detection, trackin
 </div>
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **GUI Framework**: PyQt6
 - **Computer Vision**: OpenCV
@@ -31,7 +31,7 @@ An advanced computer vision application for automatic vehicle detection, trackin
 - **Video Processing**: OpenCV, PyQt6 Multimedia
 - **Machine Learning**: PyTorch
 
-## 📋 Requirements
+## Requirements
 
 ### System Requirements
 - Python 3.8 or higher
@@ -77,7 +77,7 @@ scikit-image>=0.18.0
 packaging>=21.0
 ```
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -100,7 +100,7 @@ packaging>=21.0
    - Ensure `yolov8n.pt` (YOLOv8 Nano model) is in the project directory
    - Ensure `license_plate_detector.pt` (custom license plate detection model) is in the project directory
 
-## 🎯 Usage
+## Usage
 
 ### Running the Application
 
@@ -143,7 +143,7 @@ The application generates several output files:
 - `{video_name}_results_interpolated.csv`: Interpolated data for missing frames
 - `{video_name}_out.mp4`: Annotated video with detection visualizations
 
-## 📊 CSV Output Format
+## CSV Output Format
 
 ### Plates CSV (`{video_name}_plates.csv`)
 | Column | Description |
@@ -163,7 +163,7 @@ The application generates several output files:
 | license_number | Recognized license plate text |
 | license_number_score | Confidence score for OCR recognition |
 
-## 🧠 Technical Architecture
+## Technical Architecture
 
 ### Core Components
 
@@ -206,7 +206,7 @@ The application generates several output files:
 - **EasyOCR**: Robust optical character recognition for text extraction
 - **Scipy Interpolation**: Linear interpolation for missing tracking data
 
-## 🎛️ Configuration
+## Configuration
 
 ### License Plate Format
 
@@ -233,7 +233,7 @@ Key parameters can be adjusted in `Function.py`:
 - **Model Optimization**: Use smaller YOLO models (nano vs. large) for speed/accuracy trade-off
 - **Frame Sampling**: Process every nth frame for faster results
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Support for multiple license plate formats (EU, US, etc.)
 - [ ] Real-time camera feed processing
@@ -243,7 +243,6 @@ Key parameters can be adjusted in `Function.py`:
 - [ ] Cloud deployment capabilities
 - [ ] API endpoints for integration with other systems
 
-## 📄 License
 
 This project is developed for educational purposes as part of a university course in Computer Vision.
 Academic Year : 2024 - 2025
