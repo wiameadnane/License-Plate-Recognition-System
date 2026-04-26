@@ -242,10 +242,6 @@ Key parameters can be adjusted in `Function.py`:
 - [ ] Multi-language OCR support
 - [ ] Cloud deployment capabilities
 - [ ] API endpoints for integration with other systems
-
-
-This project is developed for educational purposes as part of a university course in Computer Vision.
-Academic Year : 2024 - 2025
 ---
 
 **Project developed by**: Wiame Adnane & Abderrahmane Najib
